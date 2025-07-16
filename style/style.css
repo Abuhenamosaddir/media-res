@@ -1,0 +1,24 @@
+.con{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 25px;
+
+
+}
+.food{
+    border: 1px solid blanchedalmond;
+    padding: 15px;
+    border-radius: 15px;
+    border-color: aqua;
+
+}
+.food img{
+    width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    .con{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
