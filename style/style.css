@@ -1,15 +1,17 @@
 .con{
     display: grid;
     grid-template-columns: repeat(6,1fr);
-    gap: 25px;
+    gap: 15px;
+    box-shadow: 12px salmon;
 
 
 }
 .food{
-    border: 1px solid blanchedalmond;
-    padding: 15px;
+    border: 1px solid rgb(214, 57, 57);
+    padding: 5px;
     border-radius: 15px;
-    border-color: aqua;
+    border-color: rgb(233, 29, 29);
+    
 
 }
 .food img{
@@ -19,6 +21,19 @@
 @media screen and (max-width: 576px) {
     .con{
         grid-template-columns: repeat(1, 1fr);
+        background-color: rgb(84, 160, 247);
     }
     
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .con{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+button{
+    border-color: rgb(219, 235, 8);
+    border-radius: 8px;
+    background-color: rgb(253, 180, 71);
+    box-shadow: 35px black;
 }
